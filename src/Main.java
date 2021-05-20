@@ -9,7 +9,7 @@ public class Main {
             int bonus = (refilling / 1);
         }
         int ammount = balance + refilling;
-            int bonus = refilling / 100;
-            System.out.println(bonus); // копейки
+        int bonus = refilling / 100;
+        System.out.println(bonus); // копейки
     }
 }
