@@ -3,7 +3,7 @@ public class Main {
         int balance = 790_00; // копейки
         int refilling = 1853_00; // копейки
         int refillingLimit = 1000_00; // копейки
-        if (refilling >= refillingLimit) {
+        if (refilling > refillingLimit) {
             int bonus = (refilling / 100);
         } else {
             int bonus = (refilling / 1);
