@@ -10,6 +10,6 @@ public class Main {
         }
         int ammount = balance + refilling;
         int bonus = refilling / 100;
-        System.out.println(bonus); // копейки
+        System.out.println(bonus); // копейки  
     }
 }
